@@ -1,0 +1,649 @@
+﻿<!DOCTYPE html>
+<html style="width: 100%;height: 100%;overflow: hidden;">
+
+<head>
+    <meta charset="utf-8">
+    <title>index</title>
+
+    <!-- js-0开始 -->
+    <script src="../js/base/jquery-1.11.0.js"></script>
+    <script src="../js/base/resizeEnhance.js"></script>
+    <script src="../js/base/jquery-ui-1.10.4.custom.me.js"></script>
+    <script src="../js/base/base.js"></script>
+    <script src="../js/base/vue.min.js"></script>
+    <script src="../js/base/iview.min.js"></script>
+    <script src="../js/base/jcp.engine.js"></script>
+    <script src="../js/base/base64.min.js"></script>
+    <script src="../js/base/pako_deflate.min.js"></script>
+    <script src="../js/base/jcp.model.js"></script>
+    <script src="../js/base/jcpLayout.js"></script>
+    <script src="../js/base/jquery.layout-latest.js"></script>
+    <script src="../js/base/jquery.ztree.all-3.5.js"></script>
+    <script src="../js/base/jquery.splitbutton.js"></script>
+    <script src="../js/base/jquery.jqGrid.me.js"></script>
+    <script src="../js/base/grid.locale-cn.js"></script>
+    <script src="../js/base/jquery-scrolltofixed.js"></script>
+    <script src="../js/base/jquery.showLoading.js"></script>
+    <script src="../js/base/DlgHelper.js"></script>
+    <script src="../js/base/jquery.noty.packaged.me.js"></script>
+    <script src="../js/base/NotyHelper.js"></script>
+    <script src="../js/base/jquery.overhang.js"></script>
+    <script src="../js/base/classie.js"></script>
+    <script src="../js/base/jquery.combo.js"></script>
+    <script src="../js/base/jquery.form.js"></script>
+    <script src="../js/base/jquery.placeholder.js"></script>
+    <script src="../js/base/jquery.mousewheel.js"></script>
+    <script src="../js/base/jquery.mCustomScrollbar.js"></script>
+    <script src="../js/base/bootstrap-tokenfield.js"></script>
+    <script src="../js/base/upLoadImages.js"></script>
+    <script src="../js/base/lightgallery.js"></script>
+    <script src="../js/base/lg-fullscreen.js"></script>
+    <script src="../js/base/lg-zoom.js"></script>
+    <script src="../js/base/lg-addOrMinus.js"></script>
+    <script src="../js/base/jquery.bootstrap-touchspin.js"></script>
+    <script src="../js/base/ssb.richToolTip.js"></script>
+    <script src="../js/base/jquery.knob.me.js"></script>
+    <!-- js-0结束 -->
+
+    <!-- js-1开始 -->
+    <script src="../js/base/evol.colorpicker.js"></script>
+    <script src="../js/base/jquery.contextMenu.js"></script>
+    <script src="../js/base/draw2d-source.js"></script>
+    <script src="../js/base/gef-source.js"></script>
+    <script src="../js/base/grid-source.js"></script>
+    <script src="../js/base/gridDefines.js"></script>
+    <script src="../js/base/gridAdapter.js"></script>
+    <script src="../js/base/ui.gridHtml5.js"></script>
+    <script src="../js/base/gridWidget.js"></script>
+    <script src="../js/base/ssb.numericupdown.js"></script>
+    <script src="../js/base/ssb.toolbar.js"></script>
+    <script src="../js/base/ssb.enumTree.js"></script>
+    <script src="../js/base/ssb.customsetuptoolbar.js"></script>
+    <script src="../js/base/weekpicker.js"></script>
+    <script src="../js/base/tinyscrollbar.js"></script>
+    <script src="../js/base/datepicker-me.js"></script>
+    <script src="../js/base/ssb.tabs.paging.js"></script>
+    <script src="../js/base/jquery.datetimepicker.js"></script>
+    <script src="../js/base/ui.attachment.js"></script>
+    <script src="../js/base/ui.scores.js"></script>
+    <script src="../js/base/clipboard.min.js"></script>
+    <script src="../js/base/ZeroClipboard.js"></script>
+    <script src="../js/base/ssb.searchWidget.js"></script>
+    <script src="../js/base/jquery.jedate.js"></script>
+    <script src="../js/base/entityDropDown.js"></script>
+    <script src="../js/base/portal.js"></script>
+    <script src="../../../static/lib/j-grid.js"></script>
+    <!-- js-1结束 -->
+
+
+    <!-- 建模开始 -->
+    <script src="../js/modeling/TabBase.js"></script>
+    <script src="../js/modeling/BusinessObject.js"></script>
+    <script src="../js/modeling/core/ParamLet.js"></script>
+    <script src="../js/modeling/core/FormEditorBase.js"></script>
+    <script src="../js/modeling/FormulaBeautifer.js"></script>
+    <script src="../js/modeling/undo/FormActions.js"></script>
+    <script src="../js/modeling/undo/ServiceContainer.js"></script>
+    <script src="../js/modeling/undo/StandardActionExecutor.js"></script>
+    <script src="../js/modeling/undo/UndoService.js"></script>
+    <script src="../js/modeling/undo/UndoAction.js"></script>
+    <script src="../js/modeling/undo/StandardActions.js"></script>
+    <script src="../js/modeling/undo/AnalysisLog.js"></script>
+    <script src="../js/modeling/core/ActionBase.js"></script>
+    <script src="../js/modeling/core/UndoBase.js"></script>
+    <script src="../js/modeling/core/ObjectArray.js"></script>
+    <script src="../js/modeling/core/ObjectMatrix.js"></script>
+    <script src="../js/modeling/core/EntityViewObject.js"></script>
+    <script src="../js/modeling/core/FlowsObject.js"></script>
+    <script src="../js/modeling/core/EnumClassObject.js"></script>
+    <script src="../js/modeling/core/EnumObject.js"></script>
+    <script src="../js/modeling/core/EnumNodeObject.js"></script>
+    <script src="../js/modeling/core/FieldGroupObject.js"></script>
+    <script src="../js/modeling/core/FieldObject.js"></script>
+    <script src="../js/modeling/core/FormGroupObject.js"></script>
+    <script src="../js/modeling/core/FormSchemeObject.js"></script>
+    <script src="../js/modeling/core/FormObject.js"></script>
+    <script src="../js/modeling/core/FormulaObject.js"></script>
+    <script src="../js/modeling/core/FormulaSchemeObject.js"></script>
+    <script src="../js/modeling/core/LinkObject.js"></script>
+    <script src="../js/modeling/core/RegionObject.js"></script>
+    <script src="../js/modeling/core/ServiceBase.js"></script>
+    <script src="../js/modeling/core/SystemField.js"></script>
+    <script src="../js/modeling/core/TableObject.js"></script>
+    <script src="../js/modeling/core/TaskLinkObject.js"></script>
+    <script src="../js/modeling/core/TaskObject.js"></script>
+    <script src="../js/modeling/core/PrintTemplateGroupObject.js"></script>
+    <script src="../js/modeling/core/PrintTemplateObject.js"></script>
+    <script src="../js/modeling/core/ValidationObject.js"></script>
+    <script src="../js/modeling/DataShare/ShareSetting.js"></script>
+    <script src="../js/modeling/GridTemplet.js"></script>
+    <script src="../js/modeling/FormHelper.js"></script>
+    <script src="../js/modeling/EastContainer.js"></script>
+    <script src="../js/modeling/survey/questioncreators.js"></script>
+    <script src="../js/modeling/survey/SurveyModel.js"></script>
+    <script src="../js/modeling/ToolbarModel.js"></script>
+    <script src="../js/modeling/FormTabBarModel.js"></script>
+    <script src="../js/modeling/FormEditorModel.js"></script>
+    <script src="../js/modeling/MainFrameModel.js"></script>
+    <!-- <script src="../js/modeling/TaskOptions.js"></script> -->
+    <script src="../js/modeling/ConfigOption.js"></script>
+    <script src="../js/modeling/plugins/RowColInsertEditor.js"></script>
+    <script src="../js/modeling/plugins/FormTabBarPlugin.js"></script>
+    <script src="../js/modeling/plugins/ShareDataPool.js"></script>
+    <script src="../js/modeling/plugins/publishTask.js"></script>
+    <script src="../js/modeling/plugins/CardInputPlugin/CardInputPlugin.js"></script>
+    <script src="../js/modeling/plugins/CardInputPlugin/CardToolbar.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/Formula/jquery.ui.autocomplete.expand.js"></script>
+    <!-- <script src="../js/modeling/plugins/GridPlugin/Formula/EAny.js"></script> -->
+    <script src="../js/modeling/plugins/GridPlugin/Formula/CalcFormula.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/Formula/CheckFormula.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/Formula/FormulaParser.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/Formula/FormulaEdit.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/Formula/FormulaEditControl.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/CellProps.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/CellHelper.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/GridActions.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/GridUndoEvent.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/GridFormPlugin.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/GridManager.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/GridFormPluginConst.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/GridFormulabarModel.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/FormulaSchemeToolTip.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/AllFormulaToolTip.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/FormulaToolTip.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/GridToolbarModel.js"></script>
+    <!-- <script src="../js/modeling/plugins/GridPlugin/ExtContextMenu.js"></script> -->
+    <script src="../js/modeling/plugins/GridPlugin/GridViewModel.js"></script>
+    <script src="../js/modeling/plugins/SurveyPlugin/SurveyToolBarModel.js"></script>
+    <script src="../js/modeling/plugins/SurveyPlugin/SurveyModelPlugin.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/Automation/GridSource.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/Automation/GridAnalysisService.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/Enum/EnumLinkage.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/Services/GridEnumLinkageService.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/Services/GridFormatBrushService.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/Services/GridFormValidationCheckService.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/Services/GridFormulaBuildService.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/Services/GridMultiDefaultValueService.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/Services/GridCellPasteService.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/Services/GridFormCopyService.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/Services/GridFormOptimizeService.js"></script>
+    <!-- <script src="../js/modeling/plugins/GridPlugin/Services/GridKeyConfigureService.js"></script> -->
+    <script src="../js/modeling/plugins/GridPlugin/Services/GridFormPrintService.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/Services/GridSelectionService.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/Services/GridTitleGenerateService.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/Services/GridVisualService.js"></script>
+    <script src="../js/modeling/plugins/GridPlugin/GridFormViewManager.js"></script>
+    <!-- <script src="../js/modeling/plugins/GridPlugin/EnumGridViewModel.js"></script> -->
+    <script src="../js/modeling/plugins/GridPlugin/ExtMenuModel.js"></script>
+    <script src="../js/modeling/Services/ConsoleService.js"></script>
+    <script src="../js/modeling/Services/AuthorizationService.js"></script>
+    <script src="../js/modeling/Services/LoggerService.js"></script>
+    <script src="../js/modeling/Services/SelectionServiceBase.js"></script>
+    <script src="../js/modeling/Services/FormSelectionService.js"></script>
+    <script src="../js/modeling/Services/FormStatusService.js"></script>
+    <script src="../js/modeling/Services/TaskStatusService.js"></script>
+    <script src="../js/modeling/Services/EastSpaceController.js"></script>
+    <script src="../js/modeling/Services/UserGuideService.js"></script>
+    <script src="../js/modeling/undo/UndoUnit.js"></script>
+    <script src="../js/modeling/undo/UndoService.js"></script>
+    <script src="../css/font/iconfont.js"></script>
+    <!-- "~/Areas/Common/Content/js/ContactsSelector/CommonSelector.js",
+    "~/Areas/Common/Content/js/Selector.js" -->
+    <!-- 建模结束 -->
+
+    <script src="/static/lib/vuex.min.js"></script>
+    <script src="/nr.formDesigner/static/b-grid.js"></script>
+    <script src="/server/vueplugin.js"></script>
+    <script src="/nr.formDesigner/example/formulaTest.js"></script>
+    <!-- 框架css开始 -->
+    <link href="../css/base/combo.css" rel="stylesheet" />
+    <link href="../css/base/jquery-ui-1.10.4.custom.me.css" rel="stylesheet" />
+    <link href="../css/base/layout-default-latest.css" rel="stylesheet" />
+    <link href="../css/base/SplitButton.css" rel="stylesheet" />
+    <link href="../css/base/zTreeStyle.css" rel="stylesheet" />
+    <link href="../css/base/ui.jqgrid.me.css" rel="stylesheet" />
+    <link href="../css/base/showLoading.css" rel="stylesheet" />
+    <link href="../css/base/enumTree.css" rel="stylesheet" />
+    <link href="../css/base/evol.colorpicker.css" rel="stylesheet" />
+    <link href="../css/base/jquery.contextMenu.css" rel="stylesheet" />
+    <link href="../css/base/base.css" rel="stylesheet" />
+    <link href="../css/base/numericupdown.css" rel="stylesheet" />
+    <link href="../css/base/toolbar.css" rel="stylesheet" />
+    <link href="../css/base/weekpicker.css" rel="stylesheet" />
+    <link href="../css/base/icons.css" rel="stylesheet" />
+    <link href="../css/base/jcp.jquery-ui.css" rel="stylesheet" />
+    <link href="../css/base/jquery.overhang.css" rel="stylesheet" />
+    <link href="../css/base/tinyscrollbar.css" rel="stylesheet" />
+    <link href="../css/base/jquery.datetimepicker.css" rel="stylesheet" />
+    <link href="../css/base/jquery.mCustomScrollbar-me.css" rel="stylesheet" />
+    <link href="../css/base/bootstrap-tokenfield.css" rel="stylesheet" />
+    <link href="../css/base/gridWidget.css" rel="stylesheet" />
+    <link href="../css/base/ui.attachment.css" rel="stylesheet" />
+    <link href="../css/base/ui.scores.css" rel="stylesheet" />
+    <link href="../css/base/lightgallery.css" rel="stylesheet" />
+    <link href="../css/base/jquery.bootstrap-touchspin.css" rel="stylesheet" />
+    <link href="../css/base/jeDate.css" rel="stylesheet" />
+    <link href="../css/base/entityDropDown.css" rel="stylesheet" />
+    <link href="../css/base/richToolTip.css" rel="stylesheet" />
+    <!-- 框架css结束 -->
+
+    <!-- 建模css开始 -->
+    <link href="../css/font/iconfont.css" rel="stylesheet" />
+    <link href="../css/modeling/businessModel.css" rel="stylesheet" />
+    <link href="../css/modeling/survey/billform.design.css" rel="stylesheet" />
+    <link href="../css/modeling/rightpage/eastContainer.css" rel="stylesheet" />
+    <link href="../css/modeling/rightpage/formulaSchemeToolTip.css" rel="stylesheet" />
+    <link href="../css/modeling/rightpage/RightPage.css" rel="stylesheet">
+    <!-- 建模css结束 -->
+    <style>
+        #userinformation {
+            height: 100px;
+            width: 200px;
+            border: 1px solid coral;
+            position: fixed;
+            top: 60px;
+            right: 5px;
+            z-index: 9;
+            background-color: #FFF;
+            display: none;
+        }
+        
+        .scale_tool {
+            position: absolute;
+            right: 0px;
+            top: 0;
+            bottom: 8px;
+            width: 300px;
+            line-height: 24px;
+        }
+        
+        #gg-slider-amount {
+            font-size: 13px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+        
+        #gg_2 {
+            position: absolute;
+            top: 50%;
+            left: 80px;
+            height: 4px;
+            border-radius: 2px;
+            width: 143px;
+            background: #ececec;
+        }
+        
+        #gg-slider-range-reduce {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 4px;
+        }
+        
+        #gg-slider-range-increase {
+            vertical-align: middle;
+            display: inline-block;
+            margin-left: 170px;
+        }
+        
+        .ui-slider .ui-slider-handle {
+            background-color: #ececec!important;
+        }
+        
+        .ui-slider-horizontal .ui-slider-range {
+            background: #d4d4d4;
+        }
+        
+        .ui-slider .ui-slider-handle {
+            width: 0;
+            height: 0;
+        }
+        
+        .scale_big {
+            float: right;
+            margin-right: 16px;
+            cursor: pointer
+        }
+    </style>
+</head>
+<!--    mainLayout应该是最外面那个div的id属性，暂时先这么加 -->
+
+<body style="min-width: 700px;width: 100%;height: 100%;font-size: 62.5%;" layout="layout" id="mainLayout">
+    <!-- 用户信息  后期补全 -->
+    <div id="userinformation">
+        <div style="line-height: 30px;font-size: 13px;padding-left: 15px;border-bottom: 1px solid #f4f4f4">
+            设置
+        </div>
+        <div style="line-height: 30px;font-size: 13px;padding-left: 15px;border-bottom: 1px solid #f4f4f4">
+            切换
+        </div>
+        <div style="line-height: 30px;font-size: 13px;padding-left: 15px;border-bottom: 1px solid #f4f4f4">
+            退出
+        </div>
+    </div>
+    <div id="businessModel" entry="BusinessModel" layout="layout" center="center" opt="">
+        <div top="top" id="toolbarContainer" style="height: 130px;color:#ffffff" layout="layout">
+            <div id="div_businessModelHeader" style="background:#1F2F3C; height:60px; font-size:0px;" layout="layout" top="top">
+                <div id="div_head" style="height: 60px;width: 50%;display: inline-block;font-size: 14px;vertical-align: top">
+                </div>
+                <div style="width: 50%;display: inline-block;vertical-align: top">
+                    <div style="float: right;display: inline-block;margin-right: 6px;height: 100%;line-height: 60px;position: relative;border-left: 1px solid #EBEBEB">
+                        <div style="margin-left: 20px">
+                            <div style="display: inline-block;height: 30px;width: 30px;border: 1px solid;border-radius: 60%;vertical-align: middle;margin-right: 12px">
+                            </div>
+                            <div style="display: inline-block;margin-right: 10px;font-size: 14px;vertical-align: middle">
+                                admin
+                            </div>
+                            <div id="user" style="display: inline-block;float: right;margin-right: 15px;vertical-align: middle">
+                                <i class='icon-_Txia1 iconfont icon_fix'></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="navigation" style="width: 150px;height: 60px;float: right;">
+                        <span style="display: inline-block;margin-top: 20px;">
+                      <i class='icon-_topTshouye iconfont' style="font-size: 18px"></i>
+                    </span>
+                        <span style="margin-left: 20px">
+                      <i class='icon-_topTkefu iconfont' style="font-size: 18px"></i>
+                    </span>
+                        <span style="margin-left: 20px">
+                      <i class='icon-_topTxiaoxi iconfont' style="font-size: 18px"></i>
+                      <div style="background-color: #FFA929;border: 0px solid;display: inline-block;border-radius: 8px;margin-left: 6px;text-align: center;font-size: 14px;padding: 1px 5px;min-width: 27px;">
+                         99
+                      </div>
+                      
+                    </span>
+                    </div>
+                </div>
+            </div>
+            <div class="toolbar" id="div_businessModelToolbar" entry="BM_ToolbarModel" center="center">
+            </div>
+        </div>
+           <div id="schemeContainer" style="display: none;">
+           </div>
+        <!-- <ul id='schemeContainer' style='display:none'>
+        </ul> -->
+        <div layout="layout" center="center" id="div_businessModelCenter" resizerdblclicktoggle="false" enablecursorhotkey="false">
+            <div layout="layout" center="center" id="div_businessModelTab" enablecursorhotkey="false">
+                <div id="div_businessModelFormEditor" class="mainGridHtml5" entry="BM_FormEditorModel" layout="layout" center="center">
+                </div>
+                <div id="ul_businessModelFormTabContainer" layout="layout" bottom="bottom" style="height: 60px; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none;">
+                    <ul id="ul_businessModelFormTabBar" entry="BM_FormTabBarModel"></ul>
+                    <div id="ul_businessModelGroupTabContainer">
+
+                        <div class="main_footer" style="position: relative">
+                            <ul id="ul_businessModelGroupTabBar" style="margin-right:300px;margin-top:0px;border-top: 0px; padding-top:0px; background:none #f6f6f6 !important;height:32px !important;font-family:microsoft yahei;">
+
+
+                            </ul>
+                            <div class="scale_tool" >
+                                <span id="gg-slider-amount" style="display: inline-block;height: 23px;width: 33.44px;">
+                                </span>
+                                <span id="gg-slider-range-reduce">
+                                    <svg class="icon icon_radio_check" aria-hidden="true" >
+                                        <use xlink:href="#icon-_GJWsuoxiao"></use>
+                                    </svg>
+                                </span>
+                                <span id="gg-slider-range-increase">
+                                    <svg class="icon icon_radio_check" aria-hidden="true" >
+                                        <use xlink:href="#icon-_GJWfangda"></use>
+                                    </svg>
+                                </span>
+                                <div id="gg_2">
+                                </div>
+                                <div class="scale_big">
+                                    <svg class="icon icon_radio_check" aria-hidden="true">
+                                        <use xlink:href="#icon-_Ttianjiabiaoge"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="bm_scrollpanel-x" class="scrollpanel-x" style="position: absolute; display: none;">
+                        <div class="grid_scrollSplitter">
+                        </div>
+                        <div id="bm_scrollbarBtnLeft" class="scrollbarBtn inlineBlock scrollbarBtnLeft">
+                            <span></span>
+                        </div>
+                        <div id="bm_scrollbar-x" class="scrollbar-x inlineBlock" style="width: 500px; overflow: visible;">
+                            <div class="track">
+                                <div class="thumb">
+                                    <div class="end">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="bm_scrollbarBtnRight" class="scrollbarBtn inlineBlock scrollbarBtnRight">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="bm_scrollpanel-y" class="scrollpanel-y" style="position: absolute; display: none; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none;">
+                    <div id="bm_scrollbarBtnTop" class="scrollbarBtn scrollbarBtnTop" style="display: block;">
+                        <span></span>
+                    </div>
+                    <div id="bm_scrollbar-y" class="scrollbar-y" style="height: 100px;">
+                        <div class="track">
+                            <div class="thumb">
+                                <div class="end"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="bm_scrollbarBtnBottom" class="scrollbarBtn scrollbarBtnBottom" style="display: block;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <!--    右侧区域属性 -->
+            <div id="eastSpaceOuterContainer" layout="layout" right="right" enableCursorHotkey="false" inithidden="false" resizable="true" minsize="400" spacingopen="5" spacingclose="0" style="width: 0px;">
+                <!-- @{ Html.RenderPartial("~/Areas/BusinessModel/Views/EastContainer.cshtml"); } -->
+                <div entry="EastContainer" id="ec_Main" layout="layout" center="center" style='top: 0px; left: 0px;'>
+                    <div id="ec_header" layout="layout" top="top" class="header_top" style='height: 35px;line-height:35px;font-size: 14px;border-bottom:1px solid #dedede;font-family: Microsoft Yahei;background: #f4f4f4!important;'>
+                        <span id="ec_Title" class="header_text" style='position: relative;display:inline-block; text-indent: 15px; vertical-align: top; line-height:35px;'></span>
+                        <div class="action" style="float: right;" style="margin-top: 3px;">
+                            <span class="ui-icon close" title="关闭"></span>
+                        </div>
+                    </div>
+                    <div id="ec_Container" layout="layout" center="center" class="ec_Container1" style="height:200px">
+                    </div>
+                </div>
+            </div>
+            <div id="tooltip" class="tip" style="display:none"></div>
+            <div id="formulaSchemeToolTip" class="tip" style="display:none"></div>
+        </div>
+        <div id="formulaToolTip" class="tip" style="display:none"></div>
+    </div>
+    <div id="formSelectorContainer" style="display: none; z-index: 1;">
+        <div style="height: 36px; border-bottom: solid 1px #e5e5e5">
+            <input id="formSelectorSearch" type="text" placeholder="搜索表单">
+            <div id="formSelectorSearchIcon" class="formSelectorSearchIcon search" style="float: right;"></div>
+        </div>
+        <div id="formSelectorFormListContainer">
+            <ul id="formSelectorFormList"></ul>
+        </div>
+    </div>
+    <div id="type-dropdown-list" class="gg-tabs-dropdown" style="display: none;z-index:1"></div>
+    <span id="bm_specialLetterParser" style="display: none"></span>
+    <!--    插入多行多列 -->
+    <div id="div_InsertColRowInsertEditor" style="display: none;">
+        <!-- @Html.Partial("~/Areas/BusinessModel/Views/RowColInsertEditor.cshtml") -->
+        <div id="RowColumnInsert_table" entry="RowColumnInsert" class="gg-dlg-container-small">
+            <div layout="layout" center="center" class="dlgContainer gg-form">
+                <div class="item item-height-Adaptive item-no-marginbootom">
+                    <div class="item-title">
+                        <div id="RowColumnInsert_insertCountText" class="field" onselectstart='return false'>
+                            行数：
+                        </div>
+                    </div>
+                    <div class="item-content item-content-row">
+                        <input class="field field-width-Adaptive" type="text" id="RowColumnInsert_insertCount" />
+                    </div>
+                </div>
+                <div class="item">
+                    <div class=" item-content item-content-row">
+                        <div id='RowColumnInsert_insertBefore' class='insertBefore_checked'></div>
+                        <div id='RowColumnInsert_insertBeforeText' class="field" onselectstart='return false'>前插行</div>
+                    </div>
+                </div>
+            </div>
+            <div layout="layout" bottom="bottom" align='right' class="gg-dlg-footer">
+                <div class="gg-btn-container">
+                    <button id='RowColumnInsert_OKBtn' class='gg-btn gg-btn-primary'>确定</button>
+                    <button id='RowColumnInsert_CancelBtn' class='gg-btn'>取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="div_InsertColRowSizeEditor" style="display: none;">
+        <!-- @Html.Partial("~/Areas/BusinessModel/Views/RowColSizeEditor.cshtml") -->
+    </div>
+
+    <div id="div_RenameTaskTitle" class="gg-dlg-container-small" style="display: none;">
+        <!-- @Html.Partial("~/Areas/BusinessModel/Views/RenameTaskTitle.cshtml") -->
+        <div id="RenameTaskTitle_table" entry="RenameTaskTitle" class="gg-form">
+            <div class="item">
+                <span class=' item-title '>表格名称：</span>
+                <div class="item-content item-content-row">
+                    <input class=' field field-width-Adaptive ' type='text' id='RenameTaskTitle_txt' />
+                    <div class=' field ' style="width:7px">
+                        <span id="RenameTaskTitle_Tip" style="color:#626262; display: none">*</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gg-dlg-footer">
+            <div class="gg-btn-container">
+                <button class="gg-btn gg-btn-primary" id="RenameTaskTitle_OKBtn">确定</button>
+                <button class="gg-btn" id="RenameTaskTitle_CancelBtn">取消</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="div_PublishSuccessed" style="display: none;">
+        <!-- @Html.Partial("~/Areas/BusinessModel/Views/OnPublishSuccessed.cshtml") -->
+    </div>
+    <!-- @Scripts.Render("~/bundles/businessmodel/js") -->
+</body>
+<script type="text/javascript" language="javascript">
+    //用户信息的显示与隐藏
+    function show() {
+        $("#user").click(function() {
+            var information = $("#userinformation");
+            var userImag = $("#user").find(".iconfont");
+            if (information.css("display") == "block") {
+                userImag.removeClass('icon-_Tshang1').addClass('icon-_Txia1')
+                information.css("display", "none");
+            } else {
+                userImag.removeClass('icon-_Txia1').addClass('icon-_Tshang1')
+                information.css("display", "block");
+            }
+        })
+    }
+    show()
+        //   页面初始化
+    var taskId = '';
+    var activedSchemeId = '';
+    var url = window.location.href;
+    var index = url.indexOf("?");
+    var value = window.location.href.substring(index + 1);
+    var vars = value.split("&");
+    for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split("=");
+        if (pair[0] == 'taskKey') {
+            taskId = pair[1];
+        }
+        if (pair[0] == 'activedSchemeId') {
+            activedSchemeId = pair[1].substring(0, 36);
+        }
+    }
+    if (taskId.length > 36) taskId = taskId.substring(0, 36);
+    var isExistUrl = BM_ServiceAddress_ip_port + '/designer/' + taskId + '/form/taskIsExist';
+    var dataUrl = '';
+    action(isExistUrl, function(loadjson) {
+        var taskIsExist = JSON.parse(loadjson);
+        if (taskIsExist.isExist == 'true') dataUrl = BM_ServiceAddress_ip_port + '/designer/' + taskId + '/form/getformData';
+        else dataUrl = BM_ServiceAddress_ip_port + '/designer/' + taskId + '/form/createformData'
+    }, false);
+
+    if (activedSchemeId == null || activedSchemeId == '') {
+        action(dataUrl, function(loadjson) {
+            $('#businessModel').attr('opt', loadjson);
+        }, false);
+    } else {
+        dataUrl = BM_ServiceAddress_ip_port + '/designer/form/changeScheme';
+        actionPost(dataUrl, {
+            taskID: taskId,
+            activedSchemeID: activedSchemeId
+        }, function(loadjson) {
+            $('#businessModel').attr('opt', loadjson);
+        }, false);
+    }
+
+    //抽象出来Ajax方法;
+    function action(path, callback, async) {
+        $.ajax({
+            type: 'GET',
+            url: path,
+            contentType: 'application/json',
+            async: async,
+            beforeSend: function(request) {
+                setCookie(request);
+            },
+            success: function(result) {
+                if (callback) {
+                    callback.call(self, result);
+                }
+            },
+            error: function(req, status, ex) {},
+            timeout: 60000
+        });
+    }
+
+    function actionPost(path, data, callback, async) {
+        var jsonData = data && JSON.stringify(data);
+        $.ajax({
+            type: 'POST',
+            url: path,
+            contentType: 'application/json',
+            async: async,
+            data: jsonData,
+            beforeSend: function(request) {
+                setCookie(request);
+            },
+            success: function(result) {
+                if (callback) {
+                    callback.call(self, result);
+                }
+            },
+            error: function(req, status, ex) {},
+            timeout: 60000
+        });
+    }
+
+    function setCookie(request) {
+        var token = getCookie('token');
+        var tenant = getCookie('tenant');
+        if(token != null){
+            request.setRequestHeader('x-auth-token', token);
+        }
+        if(tenant != null){
+            request.setRequestHeader('tenant-id', tenant);
+        }
+    }
+
+    function getCookie(name) {
+        var cookie = document.cookie;
+        var reg = new RegExp(`(^| )${name}=([^;]*)(;|$)`);
+        var arr = cookie.match(reg);
+        if (arr) {
+            return arr[2];
+        }
+        return null;
+    }
+    $.startLayout();
+    $.engine();
+</script>
+
+</html>
